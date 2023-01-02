@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta charset="UTF-8">    
+    <title>Challenge 01 ONE/Alura</title>
+    <link rel="shortcut icon" href="./Images/Logo@2x.png">
+    <link rel="stylesheet" href="./CSS/Stylesheet.css">
+    
+</head>
+
+
+<body>
+    <script type="text/javascript" src="./Script/script.js"></script>  
+
+    <div class="container">
+        <div class="logo">
+            <img class="logoImg" src="./Images/logo.png">
+            <h1 class="title">Encriptador enigma</h1>
+        </div>
+        <div class="left">
+            <input class="type-input" type="Text" id="textinput" placeholder="Ingrese el texto aquí">
+            
+        </div>
+        <div class="rigth">
+            <img src="./Images/doll.png" id="img_left">
+            <h1 id="text1">Ningún mensaje fue encontrado</h1>
+            <textarea name="TextArea" id="text2" cols="80" rows="8">Ingrese el texto que deseas encriptar o desencriptar.</textarea>           
+            <button id="copy1" type="button" name="button" onclick="copytxt()">Copiar</button>
+        </div>
+
+        <div class="left-button">            
+            <p>Solo letras minúsculas y sin acentos.</p>
+            <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>           
+        </div>
+        
+    </div>
+
+</body>
+
+
+</html>
